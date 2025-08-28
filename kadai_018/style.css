@@ -1,25 +1,15 @@
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-}
-
 #top {
   width: 800px;
   background-color: #dcc9f4;
-  margin: 20px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  margin: 20px auto;
 }
 
-#top .top-child {
+.top-child {
   width: 20%;
   background-color: #ffd9df;
+  display: inline-block;
   text-align: center;
-  margin: 0 10px;
 }
 
 #middle-child01,
@@ -94,4 +84,5 @@ body {
   left: 400px;        
 
 }
+
 
